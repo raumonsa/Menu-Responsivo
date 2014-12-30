@@ -1,0 +1,100 @@
+/* Le quirto los margenes que me dan los navegadores por defecto */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* Le quirto los margenes que me dan los navegadores por defecto */
+
+body {
+	background: #B2D5B8;
+
+}
+
+header {
+width: 100%;
+}
+
+.menu_bar {
+	display: none;
+}
+
+header nav {
+	width: 90%;
+	max-width: 1000px;
+	margin:20px auto;
+	background: #26269E;
+}
+
+header nav ul {
+	overflow: hidden;
+	list-style: none; 
+}
+
+header nav ul li {
+	float: left;
+}
+
+header nav ul li a {
+   color:white;
+   padding: 20px;
+   display: block;
+   text-decoration: none;
+}
+
+header nav ul li span {
+	margin-right: 10px;
+}
+
+header nav ul li a:hover{
+	background: #4A4AE5;
+}
+
+section{
+	padding: 20px;
+}
+ footer{
+background: #26269E;
+}
+
+@media screen and (max-width: 800px){
+    header nav{
+    	width: 80%;
+    	height: 100%;
+    	margin: 0;
+    	position: fixed;
+    }
+    header nav ul li{
+    	display: block;
+    	float: none;
+    	border-bottom:1px solid rgb(255,255,255, .3); 
+    }
+
+    .menu_bar{
+    	display: block;
+    	width: 100%;
+    	background: #ccc;	
+    }
+
+    .menu_bar .bt-menu {
+    	display: block;
+    	padding: 20px;
+    	background: #024059;
+    	color:#fff;
+    	text-decoration: none;+
+    	font-weight: bold;
+    	font-size: 20px;
+    	-webkit-box-sizing: border-box;
+    	-moz-box-sizing: border-box;
+    	box-sizing: border-box;
+    }
+
+    .menu_bar span {
+    	float: right;
+        font-size: 40px;
+
+    }
+}
+
+

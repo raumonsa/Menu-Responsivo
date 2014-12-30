@@ -1,0 +1,61 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?-e7j9mq');
+	src:url('fonts/icomoon.eot?#iefix-e7j9mq') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-e7j9mq') format('woff'),
+		url('fonts/icomoon.ttf?-e7j9mq') format('truetype'),
+		url('fonts/icomoon.svg?-e7j9mq#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+	content: "\e900";
+}
+
+.icon-file-text2:before {
+	content: "\e926";
+}
+
+.icon-folder-open:before {
+	content: "\e930";
+}
+
+.icon-database:before {
+	content: "\e964";
+}
+
+.icon-user:before {
+	content: "\e971";
+}
+
+.icon-users:before {
+	content: "\e972";
+}
+
+.icon-key:before {
+	content: "\e98d";
+}
+
+.icon-menu:before {
+	content: "\e9bd";
+}
+
+.icon-exit:before {
+	content: "\ea14";
+}
+
